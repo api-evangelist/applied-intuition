@@ -1,19 +1,42 @@
 aid: applied-intuition
 name: Applied Intuition
-description: 'Applied Intuition is a company surfaced as a portfolio company of kleiner-perkins and added
-  to the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Applied Intuition builds physical AI software and simulation infrastructure
+  for autonomous systems across automotive, defense, trucking, mining, construction,
+  and agriculture. Its end-to-end stack spans a Self-Driving System (SDS), a Vehicle
+  OS, and tools for vehicle intelligence, letting teams develop, simulate, test, validate,
+  and deploy autonomy at scale. Applied Intuition sells enterprise autonomy software
+  to OEMs and defense programs; it does not publish a public developer REST/GraphQL
+  API, SDK, or developer portal, so this profile captures the company identity plus
+  its public web, security, and open-source surfaces for the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/applied-intuition/refs/heads/main/apis.yml
 x-type: company
 x-source: kleiner-perkins-portfolio
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.sanity.io/images/a86leg7v/production/7e96db00d9bd9a6aa41194e2b8dbae2d8af500dd-1200x630.png
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
-- Ai
+- AI
+- Autonomous Vehicles
+- Simulation
+- Robotics
+- Defense
+- Physical AI
+- Automotive
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +46,24 @@ maintainers:
 common:
 - type: Website
   url: https://www.appliedintuition.com
+- type: GitHubOrganization
+  url: https://github.com/AppliedIntuition
+- type: Blog
+  url: https://www.appliedintuition.com/autonomy-news
+- type: PrivacyPolicy
+  url: https://www.appliedintuition.com/privacy-policy
+- type: TermsOfService
+  url: https://www.appliedintuition.com/terms-and-conditions
+- type: Support
+  url: https://www.appliedintuition.com/contact
+- type: Security
+  url: https://www.appliedintuition.com/security
+- type: VulnerabilityDisclosure
+  url: security/applied-intuition-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/applied-intuition-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
